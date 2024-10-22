@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="margin: 0 auto;padding: 0;">
+    <div class="container" style="display: flex; flex-direction: column; align-items: center; width: 80%;">
+        <h1>Gerador de QR Code com Token</h1>
+        <input type="text" id="tokenInput" readonly="true" style="width: 40%;" />
+        <button id="generateButton" style="margin-top: 10px;">Gerar QR Code</button>
+
+        <div id="qrcode_Content" style="margin-top: 30px;">
+            <img id="qrcode" src="">
+        </div>
+    </div>
+</body>
+<script type="module" src="./controller.js"></script>
+
+</html>
